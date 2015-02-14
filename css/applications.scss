@@ -2,3 +2,14 @@
 h1{
 	color:$color-base;
 }
+
+.surveyor {
+  border: 1px solid #ccc;
+  padding: 20px;
+  h2 {
+  font-size: 18px;
+  	a {
+  		color: green;
+	}
+  }
+}
