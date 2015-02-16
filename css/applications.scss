@@ -2,6 +2,8 @@
 
 $base-color:#797979;
 $base-padding:10px !default;
+$modal-padding: 20px 10px 15px !default;
+
 
 
 h1{
@@ -82,7 +84,6 @@ h1{
   padding: 10px;
 }
 
-$base-padding:10px !default;
 .modal {
   background: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -98,3 +99,19 @@ $base-padding:10px !default;
   display: block;
   padding: $base-padding;
 }
+
+
+.modal {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  padding: $modal-padding;
+}
+.modal-title {
+  border-bottom: 1px solid #ccc;
+  font-size: 24px;
+  padding: $modal-padding;
+}
+.modal-action {
+  background: purple;
+  display: block;
+  padding: $modal
