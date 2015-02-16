@@ -4,7 +4,7 @@ $base-color:#797979;
 $base-padding:10px !default;
 $modal-padding: 20px 10px 15px !default;
 $font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+$left:left;
 
 h1{
 	color:$color-base;
@@ -129,5 +129,20 @@ body {
   text-align: center;
   span {
     font-family: $font-base;
+  }
+}
+
+
+$left:left;
+.girder {
+  border-#{$left}: 4px solid #ccc;
+  h2 {
+    font-size: 24px;
+  }
+}
+.notice {
+  border-#{$left}:  8px solid #797979;
+  a {
+    color: #222;
   }
 }
