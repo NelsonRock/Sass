@@ -1,4 +1,8 @@
 @import "settings";
+
+$base-color:#797979;
+
+
 h1{
 	color:$color-base;
 }
@@ -60,4 +64,19 @@ h1{
       color:#313131;
       }
     }
+}
+
+.surveyor {
+  border: 1px solid $base-color;
+  padding: 20px;
+}
+.surveyor h2 {
+  color: $base-color;
+  font-size: 18px;
+}
+
+.notice {
+  background: yellow;
+  border: 5px solid $base-color;
+  padding: 10px;
 }
